@@ -20,7 +20,7 @@ if(!isset($excel_export_url))
         data-toggle="table" 
         data-search="true" 
         data-show-columns="true" 
-        data-show-toggle="false"
+        data-show-toggle="true"
         data-mobile-responsive="true"
         data-striped="true" 
         data-sortable="true" 
