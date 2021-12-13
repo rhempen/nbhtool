@@ -1,0 +1,9 @@
+<?php
+require('handler/error.php');
+require('handler/request.php');
+require('handler/config.php');
+require('handler/layout.php');
+require('handler/params.php');
+require('handler/session.php');
+require('handler/auth.php');
+?>

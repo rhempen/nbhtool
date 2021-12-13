@@ -1,0 +1,36 @@
+{
+"layout":
+    {
+    "default": "html"
+    },
+"db":
+    {
+    "type" : "mysql",
+    "name" : "nbhtool_prod",
+    "server" : "localhost",
+    "username" : "nbhtool_prod",
+    "password" : "kohs3oodahSo=imae1moo9ah",
+    "charset" : "utf8" 
+    },
+"acl":
+    {
+    "strict_controllers" : 1,
+    "strict_parameters" : 0
+    },
+"url":
+    {
+    "static" : "/zh"
+    },
+"auth":
+    {
+    "provider" : "database",
+    "auth_controller" : "auth",
+    "auth_action" : "login",
+    "pw_salt" : "Sie3ieTeetooleiJoh5gaiNg8ak7dael",
+    "pw_hash_algo" : "sha512"
+    },
+"session":
+    {
+    "instance_id" : "que2Uhain1ooci0ohkum4hoo0goube8K"
+    }
+}

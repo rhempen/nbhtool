@@ -1,0 +1,46 @@
+{
+"layout":
+    {
+    "default": "html"
+    },
+"db":
+    {
+    "type" : "mysql",
+    "name" : "nbhtool_qss",
+    "server" : "localhost",
+    "username" : "nbhtool_qss",
+    "password" : "baiKah5shie3fa>avoof#uho",
+    "charset" : "utf8" 
+    },
+"acl":
+    {
+    "strict_controllers" : 1,
+    "strict_parameters" : 0
+    },
+"url":
+    {
+    "static" : "/nbhtool.ch/httpdocs/qss/"
+    },
+"auth":
+    {
+    "provider" : "database",
+    "auth_controller" : "auth",
+    "auth_action" : "login",
+    "pw_salt" : "Sie3ieTeetooleiJoh5gaiNg8ak7dael",
+    "pw_hash_algo" : "sha512"
+    },
+"session":
+    {
+    "instance_id" : "Chae6uaVahzoca6Pod2uot1ieph4Kee5"
+    },
+"error":
+    {
+    "enable_email_report" : 1,
+    "report_email_address" : "thomber@orbnet.ch",
+    "report_email_subject" : "Error in nbhtool.ch"
+    },
+"nbhtool":
+    {
+    "report_start_year" : 2016
+    }
+}

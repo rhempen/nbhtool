@@ -1,0 +1,250 @@
+body
+{
+    padding-top: 120px;
+    margin-bottom: 80px;
+}
+
+.navbar-fixed-top .nav
+{
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand
+{
+    padding-lef: 35px;
+}
+
+@media(min-width: 768px)
+{
+    body
+    {
+        padding-top: 120px;
+    }
+
+    .navbar-fixed-top .navbar-brand
+    {
+        padding-top: 15px;
+    }
+}
+
+div.modal-body
+{
+   border-bottom: 1px solid #dddddd;
+   margin-bottom: 5px;
+}
+
+.fake-link
+{
+    cursor: pointer;
+}
+
+.fake-link:hover
+{
+    color: white;
+}
+
+div.panel-heading ul > li > a
+{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    
+}
+
+div.login-panel
+{
+    max-width: 600px !important;
+}
+
+img.person_icon
+{
+    width: 50px;
+    margin: 0px;
+    float: left;
+}
+
+span.object_menu
+{
+    float: right;
+    font-size: 1.6em;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+} 
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+div.person-card dl
+{
+    margin-bottom: 0px;
+}
+
+div.panel-heading h3
+{
+    font-weight: bold;
+}
+
+div.person-card div.person-card-first-row
+{
+    height: 60px;
+}
+
+footer.footer
+{
+    padding-top: 12px;
+}
+
+.start-invisible
+{
+    display: none;
+}
+
+.color-state-0, .color-state-0 > a
+{
+    background-color: #ff9933;
+    color: #fff !important;
+}
+
+.color-state-1, .color-state-1 > a
+{
+    background-color: #3399ff;
+    color: #fff !important;
+}
+
+.color-state-2, .color-state-2 > a
+{
+    background-color: #009900;
+    color: #fff !important;
+}
+
+.color-state-3, .color-state-3 > a, .color-state-4, .color-state-4 > a
+{
+    background-color: #a6a6a6;
+    color: #fff !important;
+}
+
+span.db-id
+{
+    color: #bbb;
+    font-size: 0.6em;
+}
+
+span.badge-client, span.badge-client > a
+{
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+span.badge-agent
+{
+    background-color: #f47d42;
+    color: #fff;
+}
+
+span.badge-agent-passive
+{
+    background-color: #bbb !important;
+    color: #fff;
+}
+
+span.badge-agent > a
+{
+    color: #fff;
+}
+
+span.badge-volunteer
+{
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+span.badge-volunteer > a
+{
+    color: #fff;
+}
+
+span.badge-volunteer-passive
+{
+    background-color: #bbb !important;
+    color: #fff;
+}
+
+span.badge-volunteer-busy
+{
+    text-decoration: line-through;
+}
+
+span.badge-in-nav
+{
+    background-color: #337ab7;
+}
+
+nav.navbar-sub
+{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    margin-bottom: 0px;
+}
+
+.format-as-error
+{
+    color: #a94442;
+}
+
+
+div.wrap
+{
+    padding-bottom: 20px;
+}
+
+div.volunteer-modal
+{
+    padding: 9px;
+}
