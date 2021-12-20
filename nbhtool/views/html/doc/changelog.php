@@ -14,6 +14,23 @@ nachfolgende Tabelle</p>
 </thead>
 <tbody>
 <tr>
+    <td>0.10.42-b1</td>
+    <td>Beta 1</td>
+    <td>22.1.2022</td>
+    <td>
+        <ul>
+            <li>Tabellen verwenden jetzt die gesamte verfügbare Breite des 
+                Browserfensters. Damit wird die Lesbarkeit der Tabelle verbessert.</li>
+            <li>Im Tabellenheader gibt es neben dem Suchfeld rechts einen neuen Knopf.
+                Wird angeklickt, werden die Daten in der Detailsicht innerhalb 
+                der Tabelle angezeigt. So kann der ganze Datensatz gelesen werden</li>
+            <li>In den Personenlisten wird neu am Schluss auch das Eintrittsdatum
+                angezeigt</li>
+            
+        </ul>
+    </td>
+</tr>
+<tr>
     <td>0.10.41-b1</td>
     <td>Beta 1</td>
     <td>21.1.2019</td>

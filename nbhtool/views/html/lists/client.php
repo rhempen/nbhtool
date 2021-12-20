@@ -10,6 +10,7 @@
             href="'.\Layout\Html\Tools::url('person/client',['person_id' =>
             '{person_id}']).'"><strong>#{person_id}</strong><a>'
         ],
+        'Status' => ['field' => 'state'],
         'Anrede' => ['field' => 'gender'],
         'Titel' => ['field' => 'title'],
         'Vorname' => ['field' => 'firstname'],

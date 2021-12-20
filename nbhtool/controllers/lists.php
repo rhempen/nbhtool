@@ -52,11 +52,19 @@ namespace Controller;
             $person_list = array();
             foreach($clients as $client)
             {
+//                if(\RT::$params->exists('state_filter') && \RT::$params->get('state_filter')->data() != $client->current_state()->state()->id())
+//                {
+//                    continue;
+//                }                
                 $person_entry = $client->person()->raw();
                 $person_entry['person_id'] = $client->person()->id();
                 $person_entry['gender'] = $client->person()->gender()->field('text')->data();
                 $person_entry['nationality'] = $client->person()->nationality()->field('text')->data();
                 $person_entry['title'] = $client->person()->title()->field('text')->data();
+                $person_entry['state'] = 
+                    $client->current_state()->state()->field('text') ?
+                    $client->current_state()->state()->field('text')->data()
+                    : '';                
                 array_push($person_list, $person_entry);
             }
             $view = \RT::$layout->view();

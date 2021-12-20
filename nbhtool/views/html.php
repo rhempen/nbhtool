@@ -153,7 +153,7 @@
                 <p class="text-muted">Nachbarschaftshilfe Z&uuml;rich</p>
             </div>
             <div class="col-sm-6">
-                <p class="text-muted text-right">Version <a href="<?= \Layout\Html\Tools::url('doc/changelog') ?>">0.10.41-b1</a></p>
+                <p class="text-muted text-right">Version <a href="<?= \Layout\Html\Tools::url('doc/changelog') ?>">0.10.42-b1</a></p>
             </div>
         </div>
     </div>

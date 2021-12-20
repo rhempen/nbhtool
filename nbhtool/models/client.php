@@ -23,6 +23,20 @@ class Client extends \Base\Record
         return new \Model\Person($this->field('person_id')->data());
     }
 
+    public function current_state()
+    {
+        $result = \DB::$handle->get(
+            'client_state_log',
+            '*',
+            [
+                'client_id' => $this->id(),
+                'ORDER' => ['timestamp' => 'DESC']
+                
+            ]
+        );
+        return new \Model\ClientLog($result['id']);
+    }
+    
     public function requests()
     {
         $result_obj = array();
