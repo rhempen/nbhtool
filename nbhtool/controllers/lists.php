@@ -52,10 +52,10 @@ namespace Controller;
             $person_list = array();
             foreach($clients as $client)
             {
-//                if(\RT::$params->exists('state_filter') && \RT::$params->get('state_filter')->data() != $client->current_state()->state()->id())
-//                {
-//                    continue;
-//                }                
+                if(\RT::$params->exists('state_filter') && \RT::$params->get('state_filter')->data() != $client->current_state()->state()->id())
+                {
+                    continue;
+                }                
                 $person_entry = $client->person()->raw();
                 $person_entry['person_id'] = $client->person()->id();
                 $person_entry['gender'] = $client->person()->gender()->field('text')->data();
